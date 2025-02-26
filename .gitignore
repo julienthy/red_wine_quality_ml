@@ -1,0 +1,10 @@
+# Environnement virtuel
+red_wine_quality_env/
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+
+# Données sensibles
+.env
+*.csv
