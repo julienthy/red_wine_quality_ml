@@ -84,7 +84,7 @@ def split_features_target(df: pd.DataFrame, target_column: Union[str, List[str]]
     return X, y
 
 
-def dataset_summary(df: pd.DataFrame, y: pd.DataFrame, figures_path: Union[str, Path] = "./figures", classification_threshold: int = 10) -> None:
+def dataset_summary(X: pd.DataFrame, y: pd.DataFrame, figures_path: Union[str, Path] = "./figures", classification_threshold: int = 10) -> None:
     """
     Affiche un rapport complet du dataset et génère des visualisations.
     

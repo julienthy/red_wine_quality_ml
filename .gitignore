@@ -11,5 +11,8 @@ __pycache__/
 
 # Fichiers générés
 figures/
+.pytest_cache/
+tests/
+models/
 *.log
 *.png
